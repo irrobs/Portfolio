@@ -1,0 +1,62 @@
+@use "./variables.scss" as *;
+
+.hero {
+  grid-column: full-width-start/ full-width-end;
+  grid-row: hero-start / hero-end;
+
+  background-color: $background-color;
+  display: grid;
+  grid-template-columns: 1fr 10vw;
+  align-items: center;
+  justify-items: center;
+  position: relative;
+
+  &__tech-icons-list {
+    display: flex;
+    gap: 2rem;
+    margin-left: -6px;
+
+    & img {
+      height: 48px;
+      width: 48px;
+    }
+  }
+
+  &__social-icons-list {
+    position: absolute;
+    bottom: 5vh;
+    left: 5vh;
+    display: flex;
+    gap: 3rem;
+    & img {
+      height: 48px;
+      width: 48px;
+    }
+  }
+
+  &__main-text {
+    color: $gray-text;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3rem;
+
+    & p {
+      font-size: 3rem;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+  }
+
+  &__heading {
+    line-height: 0.9;
+    font-weight: 800;
+    letter-spacing: -1px;
+    margin-left: -8px;
+    width: min-content;
+
+    & span {
+      color: $primary-color;
+    }
+  }
+}

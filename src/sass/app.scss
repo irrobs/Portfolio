@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.app {
+  display: grid;
+  grid-template-columns: [full-width-start]100vw[full-width-end];
+  grid-template-rows: [hero-start] 100vh [hero-end];
+  font-family: "Montserrat", sans-serif;
+}

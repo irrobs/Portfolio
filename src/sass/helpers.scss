@@ -1,0 +1,28 @@
+@use "./variables.scss" as *;
+
+.heading {
+  &__primary {
+    font-size: 12rem;
+    text-transform: uppercase;
+  }
+}
+
+.section-title {
+  position: absolute;
+  font-size: 3rem;
+  top: 15vh;
+  background-color: $primary-color;
+  color: $background-color;
+  padding: 1rem 3rem;
+  font-weight: 600;
+
+  & span {
+    color: $gray-text;
+  }
+
+  &--hero {
+    left: 0;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+  }
+}

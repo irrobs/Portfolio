@@ -1,0 +1,23 @@
+@use "./variables.scss" as *;
+
+.navigation {
+  list-style: none;
+  font-size: 3rem;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+
+  &__link {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    color: $gray-text-dark;
+    text-decoration: none;
+    font-weight: 800;
+    transition: all 0.3s;
+
+    &:hover {
+      color: $gray-text;
+    }
+  }
+}
