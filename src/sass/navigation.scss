@@ -11,13 +11,16 @@
   &__link {
     writing-mode: vertical-rl;
     text-orientation: upright;
-    color: $gray-text-dark;
+    color: $gray-text--dark;
     text-decoration: none;
     font-weight: 800;
     transition: all 0.3s;
+    text-shadow: 6px 6px 0 black;
 
     &:hover {
+      text-shadow: 6px 6px 3px black;
       color: $gray-text;
+      transform: translate(-3px, -3px);
     }
   }
 }

@@ -1,3 +1,5 @@
+@use "./variables.scss" as *;
+
 * {
   padding: 0;
   margin: 0;
@@ -9,8 +11,9 @@ html {
 }
 
 .app {
+  background-color: $background-color--light;
   display: grid;
-  grid-template-columns: [full-width-start]100vw[full-width-end];
-  grid-template-rows: [hero-start] 100vh [hero-end];
+
+  grid-template-rows: [hero-start] 100vh [hero-end about-start] min-content [about-end projects-start] min-content[projects-end];
   font-family: "Montserrat", sans-serif;
 }

@@ -1,25 +1,19 @@
 @use "./variables.scss" as *;
 
 .hero {
-  grid-column: full-width-start/ full-width-end;
   grid-row: hero-start / hero-end;
 
-  background-color: $background-color;
   display: grid;
   grid-template-columns: 1fr 10vw;
   align-items: center;
   justify-items: center;
   position: relative;
+  background-color: $background-color;
 
   &__tech-icons-list {
     display: flex;
     gap: 2rem;
     margin-left: -6px;
-
-    & img {
-      height: 48px;
-      width: 48px;
-    }
   }
 
   &__social-icons-list {

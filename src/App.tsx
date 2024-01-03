@@ -1,5 +1,7 @@
 import Hero from "./hero";
-import Navigation from "./navigation";
+import Navigation from "./Navigation.tsx";
+import About from "./About.tsx";
+import Projects from "./Projects.tsx";
 
 export default function App() {
   return (
@@ -7,6 +9,8 @@ export default function App() {
       <Hero>
         <Navigation></Navigation>
       </Hero>
+      <About />
+      <Projects />
     </div>
   );
 }

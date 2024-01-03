@@ -1,6 +1,10 @@
 @use "./sass/helpers.scss";
 @use "./sass/app.scss";
 @use "./sass/hero.scss";
+@use "./sass/techIcon.scss";
+
 @use "./sass/navigation.scss";
+@use "./sass/about.scss";
+@use "./sass/projects.scss";
 
 @forward "./sass/variables.scss";

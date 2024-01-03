@@ -7,20 +7,22 @@ import iconReact from "./assets/logo-react.svg";
 import iconGitHub from "./assets/github-mark-white.svg";
 import iconLinkedin from "./assets/logo-linkedin.png";
 
+import TechIcon from "./TechIcon";
+
 export default function Hero({ children }: { children: JSX.Element }) {
   return (
     <section className="hero">
       <div className="hero__main-text">
-        <div className="section-title section-title--hero">
+        <div className="section-title section-title--left">
           Olá, meu nome é <span>Matheus Escobar</span>, e eu sou um:
         </div>
         <ul className="hero__tech-icons-list">
-          <Icon icon={iconHTML} name="HTML" />
-          <Icon icon={iconCSS} name="CSS" />
-          <Icon icon={iconJavascript} name="Javascript" />
-          <Icon icon={iconTypescript} name="Typescript" />
-          <Icon icon={iconSass} name="Sass" />
-          <Icon icon={iconReact} name="React" />
+          <TechIcon icon={iconHTML} name="HTML" />
+          <TechIcon icon={iconCSS} name="CSS" />
+          <TechIcon icon={iconJavascript} name="Javascript" />
+          <TechIcon icon={iconTypescript} name="Typescript" />
+          <TechIcon icon={iconSass} name="Sass" />
+          <TechIcon icon={iconReact} name="React" />
         </ul>
         <h1 className="hero__heading heading__primary">
           Desenvolvedor <span>front</span>-end
@@ -28,13 +30,9 @@ export default function Hero({ children }: { children: JSX.Element }) {
       </div>
       {children}
       <ul className="hero__social-icons-list">
-        <Icon icon={iconGitHub} name="Github" />
-        <Icon icon={iconLinkedin} name="Linkedin" />
+        <TechIcon icon={iconGitHub} name="Github" />
+        <TechIcon icon={iconLinkedin} name="Linkedin" />
       </ul>
     </section>
   );
-}
-
-function Icon({ icon, name }: { icon: string; name: string }) {
-  return <img src={icon} alt={`${name} logo`} />;
 }
