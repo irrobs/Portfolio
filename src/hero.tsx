@@ -11,7 +11,7 @@ import TechIcon from "./TechIcon";
 
 export default function Hero({ children }: { children: JSX.Element }) {
   return (
-    <section className="hero">
+    <section className="hero" id="hero">
       <div className="hero__main-text">
         <div className="section-title section-title--left">
           Olá, meu nome é <span>Matheus Escobar</span>, e eu sou um:
@@ -30,8 +30,12 @@ export default function Hero({ children }: { children: JSX.Element }) {
       </div>
       {children}
       <ul className="hero__social-icons-list">
-        <TechIcon icon={iconGitHub} name="Github" />
-        <TechIcon icon={iconLinkedin} name="Linkedin" />
+        <a href="https://github.com/irrobs" target="_blank">
+          <TechIcon icon={iconGitHub} name="Github" />
+        </a>
+        <a href="https://www.linkedin.com/in/matheus-borri2/" target="_blank">
+          <TechIcon icon={iconLinkedin} name="Linkedin" />
+        </a>
       </ul>
     </section>
   );

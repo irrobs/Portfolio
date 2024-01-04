@@ -2,19 +2,19 @@ export default function Navigation() {
   return (
     <ul className="navigation">
       <li className="navigation__item">
-        <a href="#" className="navigation__link">
+        <a href="#about" className="navigation__link">
           Sobre
-        </a>{" "}
+        </a>
       </li>
       <li className="navigation__item">
-        <a href="#" className="navigation__link">
+        <a href="#projects" className="navigation__link">
           Projetos
-        </a>{" "}
+        </a>
       </li>
       <li className="navigation__item">
-        <a href="#" className="navigation__link">
+        <a href="#contacts" className="navigation__link">
           Contatos
-        </a>{" "}
+        </a>
       </li>
     </ul>
   );

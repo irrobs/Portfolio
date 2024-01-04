@@ -2,7 +2,7 @@ import myPhoto from "./assets/uifaces-popular-image.jpg";
 
 export default function About() {
   return (
-    <section className="about">
+    <section className="about" id="about">
       <div className="section-title section-title--right">
         Quem sou <span>eu</span>?
       </div>

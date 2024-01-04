@@ -25,7 +25,6 @@
   box-shadow: 0 5px 15px 3px black;
 
   &__image {
-    width: 60rem;
     height: 35rem;
     background-color: #fff;
     border-radius: 20px;
@@ -42,6 +41,14 @@
 
   &__heading {
     color: $primary-color;
+  }
+
+  &__date {
+    color: $primary-color;
+  }
+
+  &__description {
+    margin-bottom: auto;
   }
 
   &__links {

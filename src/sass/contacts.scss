@@ -1,0 +1,28 @@
+@use "./variables.scss" as *;
+
+.contacts {
+  height: 30vh;
+  position: relative;
+
+  &__button-up {
+    background-color: $background-color--light;
+    border: none;
+    position: absolute;
+    padding: 0 5rem 2rem;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s;
+
+    &:hover {
+      transform: translate(-50%, -70%);
+    }
+
+    & img {
+      width: 5rem;
+    }
+  }
+}
