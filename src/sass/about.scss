@@ -15,7 +15,7 @@
     grid-template-rows: repeat(2, min-content);
     justify-items: center;
     align-items: center;
-    gap: 10rem;
+    column-gap: 10rem;
     box-shadow: 0 5px 10px 3px black;
     border-radius: 20px;
     background-color: $background-color;
@@ -33,6 +33,7 @@
       color: $primary-color;
       justify-self: start;
       /* text-shadow: -2px 2px 0 $background-color; */
+      align-self: start;
     }
 
     &-text {
@@ -40,6 +41,7 @@
       grid-row: 2;
       font-size: 2rem;
       color: $gray-text;
+      align-self: end;
     }
   }
 }

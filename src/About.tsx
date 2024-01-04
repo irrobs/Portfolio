@@ -1,4 +1,4 @@
-import myPhoto from "./assets/uifaces-popular-image.jpg";
+import myPhoto from "./assets/minha-foto-5.jpg";
 
 export default function About() {
   return (

@@ -31,14 +31,15 @@
   }
 
   &--left {
-    left: 0;
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
+    animation: ShowFromLeft 1s ease-in-out forwards;
   }
 
   &--right {
     right: 0;
     border-top-left-radius: 100px;
     border-bottom-left-radius: 100px;
+    animation: ShowFromRight 1s ease-in-out forwards;
   }
 }

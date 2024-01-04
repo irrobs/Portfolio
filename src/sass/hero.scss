@@ -1,4 +1,5 @@
 @use "./variables.scss" as *;
+@use "./animations.scss" as *;
 
 .hero {
   grid-row: hero-start / hero-end;

@@ -12,6 +12,7 @@ html {
 }
 
 .app {
+  overflow: hidden;
   background-color: $background-color--light;
   display: grid;
 

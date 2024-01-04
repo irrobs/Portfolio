@@ -1,0 +1,26 @@
+@keyframes ShowFromLeft {
+  0% {
+    left: -60%;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes ShowFromRight {
+  0% {
+    right: -60%;
+  }
+  100% {
+    right: 0;
+  }
+}
+
+@keyframes ShowFromBottom {
+  0% {
+    transform: translateY(120%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

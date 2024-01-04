@@ -3,8 +3,8 @@ import iconJavascript from "./assets/logo-javascript.png";
 import iconSass from "./assets/logo-sass.svg";
 /* import iconTypescript from "./assets/typescript.svg";
 import iconReact from "./assets/logo-react.svg"; */
-import myMovieList from "./assets/MyMovieList.png";
-import rocketNFTs from "./assets/Rocket NFTs.png";
+import myMovieList from "./assets/MyMovieList.jpg";
+import rocketNFTs from "./assets/Rocket-NFTs.jpg";
 
 import TechIcon from "./TechIcon";
 
