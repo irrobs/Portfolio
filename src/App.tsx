@@ -1,4 +1,4 @@
-import Hero from "./hero";
+import Hero from "./Hero.tsx";
 import Navigation from "./Navigation.tsx";
 import About from "./About.tsx";
 import Projects from "./Projects.tsx";
