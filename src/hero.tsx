@@ -12,10 +12,10 @@ import TechIcon from "./TechIcon";
 export default function Hero({ children }: { children: JSX.Element }) {
   return (
     <section className="hero" id="hero">
+      <div className="section-title section-title--left">
+        Olá, meu nome é <span>Matheus Escobar</span>, e eu sou um:
+      </div>
       <div className="hero__main-text">
-        <div className="section-title section-title--left">
-          Olá, meu nome é <span>Matheus Escobar</span>, e eu sou um:
-        </div>
         <ul className="hero__tech-icons-list">
           <TechIcon icon={iconHTML} name="HTML" />
           <TechIcon icon={iconCSS} name="CSS" />

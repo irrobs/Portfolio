@@ -1,4 +1,12 @@
+@use "./variables.scss" as *;
+@use "./mixins.scss" as *;
+
 .techIcon {
   height: 48px;
   width: 48px;
+
+  @include respond($tablet-port) {
+    height: 24px;
+    width: 24px;
+  }
 }

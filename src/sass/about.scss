@@ -1,9 +1,9 @@
 @use "./variables.scss" as *;
-
+@use "./mixins.scss" as *;
 .about {
   grid-row: about-start / about-end;
   position: relative;
-  padding: 25rem 0 15rem;
+  padding: 25rem 5rem 15rem;
   display: flex;
   justify-content: center;
 
@@ -20,6 +20,27 @@
     border-radius: 20px;
     background-color: $background-color;
 
+    @include respond($desktop-small) {
+      padding: 3rem;
+      column-gap: 8rem;
+    }
+
+    @include respond($tablet-land) {
+      max-width: 80rem;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3, min-content);
+      text-align: center;
+      row-gap: 5rem;
+    }
+
+    @include respond($tablet-port) {
+      max-width: 60rem;
+    }
+
+    @include respond($phone) {
+      text-align: start;
+    }
+
     &-photo {
       width: 40rem;
       height: 40rem;
@@ -27,13 +48,28 @@
       grid-row: 1 / -1;
       border: 3px solid $primary-color;
       align-self: start;
+
+      @include respond($tablet-land) {
+        grid-row: 3;
+      }
+
+      @include respond($phone) {
+        width: 30rem;
+        height: 30rem;
+      }
     }
 
     &-heading {
       color: $primary-color;
       justify-self: start;
-      /* text-shadow: -2px 2px 0 $background-color; */
+
       align-self: start;
+      margin-bottom: 3rem;
+
+      @include respond($tablet-land) {
+        grid-row: 1;
+        margin-bottom: 0;
+      }
     }
 
     &-text {
@@ -42,6 +78,18 @@
       font-size: 2rem;
       color: $gray-text;
       align-self: end;
+
+      @include respond($desktop) {
+        font-size: 1.8rem;
+      }
+      @include respond($desktop-small) {
+        font-size: 1.6rem;
+      }
+
+      @include respond($tablet-land) {
+        grid-row: 2;
+        grid-column: 1;
+      }
     }
   }
 }

@@ -14,7 +14,7 @@ const projectsList = [
     title: "My Movie List",
     date: "Julho de 2023",
     description:
-      "My Movie List é um site onde você pode pesquisar informações sobre qualquer filme que desejar e ver seus trailers. Além disso, é possível adicionar os filmes que desejar a listas de favoritos, de assistidos, e para ver mais tarde, assim mantentando uma organização do que você deseja ver. ",
+      "My Movie List é um site onde você pode pesquisar informações sobre qualquer filme que desejar. Além disso, é possível adicionar eles a listas de favoritos, de assistidos, e para ver mais tarde, assim mantentando uma organização do que você deseja ver.",
     website: "https://mymovielistproj.netlify.app/",
     technologiesUsed: [
       { icon: iconJavascript, technologieName: "Javascript" },

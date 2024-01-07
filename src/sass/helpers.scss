@@ -1,14 +1,39 @@
 @use "./variables.scss" as *;
+@use "./mixins.scss" as *;
 
 .heading {
   &__primary {
     font-size: 12rem;
     text-transform: uppercase;
+
+    @include respond($desktop) {
+      font-size: 9rem;
+    }
+
+    @include respond($tablet-land) {
+      font-size: 7rem;
+    }
+
+    @include respond($tablet-port) {
+      font-size: 5rem;
+    }
+
+    @include respond($phone) {
+      font-size: 4rem;
+    }
   }
 
   &__secondary {
     font-size: 4rem;
     text-transform: uppercase;
+
+    @include respond($desktop) {
+      font-size: 3.2rem;
+    }
+
+    @include respond($desktop-small) {
+      font-size: 2.8rem;
+    }
   }
 
   &__tertiary {
@@ -25,6 +50,16 @@
   color: $background-color;
   padding: 1rem 3rem;
   font-weight: 600;
+
+  @include respond($tablet-land) {
+    font-size: 2.4rem;
+  }
+
+  @include respond($tablet-port) {
+    font-size: 1.6rem;
+    top: 10rem;
+    padding: 1rem;
+  }
 
   & span {
     color: $gray-text;

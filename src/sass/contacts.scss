@@ -1,5 +1,5 @@
 @use "./variables.scss" as *;
-
+@use "./mixins.scss" as *;
 .contacts {
   position: relative;
   display: grid;
@@ -64,6 +64,11 @@
   &__list {
     display: flex;
     gap: 10rem;
+
+    @include respond($tablet-port) {
+      flex-direction: column;
+      text-align: center;
+    }
 
     & span {
       color: $primary-color;
