@@ -33,7 +33,7 @@ export default function Hero({ children }: { children: JSX.Element }) {
         <a href="https://github.com/irrobs" target="_blank">
           <TechIcon icon={iconGitHub} name="Github" />
         </a>
-        <a href="https://www.linkedin.com/in/matheus-borri2/" target="_blank">
+        <a href="https://www.linkedin.com/in/matheus-escobar/" target="_blank">
           <TechIcon icon={iconLinkedin} name="Linkedin" />
         </a>
       </ul>
