@@ -1,4 +1,4 @@
-import myPhoto from "./assets/minha-foto.jpg";
+import myPhoto from "../../assets/minha-foto.jpg";
 
 export default function About() {
   return (

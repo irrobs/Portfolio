@@ -1,8 +1,8 @@
-import Hero from "./Hero.tsx";
-import Navigation from "./Navigation.tsx";
-import About from "./About.tsx";
-import Projects from "./Projects.tsx";
-import Contacts from "./Contacts.tsx";
+import Hero from "./layout/hero/Hero.tsx";
+import Navigation from "./components/navigation/Navigation.tsx";
+import About from "./layout/about/About.tsx";
+import Projects from "./layout/projects/Projects.tsx";
+import Contacts from "./layout/contacts/Contacts.tsx";
 
 export default function App() {
   return (

@@ -1,6 +1,6 @@
-@use "./variables.scss" as *;
-@use "./animations.scss" as *;
-@use "./mixins.scss" as *;
+@use "../../sass/utils/variables.scss" as *;
+@use "../../sass/utils/mixins.scss" as *;
+@use "../../sass/utils/animations.scss" as *;
 
 .hero {
   grid-row: hero-start / hero-end;

@@ -1,4 +1,4 @@
-import upArrow from "./assets/chevron-up-outline.svg";
+import upArrow from "../../assets/chevron-up-outline.svg";
 
 export default function Contacts() {
   return (
@@ -18,7 +18,7 @@ export default function Contacts() {
         </li>
       </ul>
 
-      <a href="https://www.linkedin.com/in/matheus-borri2/" target="_blank">
+      <a href="https://www.linkedin.com/in/matheus-escobar/" target="_blank">
         Linkedin
       </a>
     </footer>

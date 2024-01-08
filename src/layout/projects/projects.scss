@@ -1,5 +1,6 @@
-@use "./variables.scss" as *;
-@use "./mixins.scss" as *;
+@use "../../sass/utils/variables.scss" as *;
+@use "../../sass/utils/mixins.scss" as *;
+
 .projects {
   grid-row: projects-start / projects-end;
   position: relative;

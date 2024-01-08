@@ -1,5 +1,5 @@
-@use "./variables.scss" as *;
-@use "./mixins.scss" as *;
+@use "../utils/variables.scss" as *;
+@use "../utils/mixins.scss" as *;
 
 .heading {
   &__primary {

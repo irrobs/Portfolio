@@ -1,12 +1,16 @@
-@use "./sass/helpers.scss";
-@use "./sass/app.scss";
-@use "./sass/hero.scss";
-@use "./sass/techIcon.scss";
+@use "./components/navigation/navigation.scss";
+@use "./components/tech-icon/techIcon.scss";
 
-@use "./sass/navigation.scss";
-@use "./sass/about.scss";
-@use "./sass/projects.scss";
-@use "./sass/contacts.scss";
+@use "./layout/about/about.scss";
+@use "./layout/contacts/contacts.scss";
+@use "./layout/hero/hero.scss";
+@use "./layout/projects/projects.scss";
 
-@forward "./sass/variables.scss";
-@forward "./sass/mixins.scss";
+@use "./app.scss";
+
+@use "./sass/utils/helpers.scss";
+
+
+@forward "./sass/utils/animations.scss";
+@forward "./sass/utils/mixins.scss";
+@forward "./sass/utils/variables.scss";

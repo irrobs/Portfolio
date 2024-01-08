@@ -1,13 +1,13 @@
-import iconHTML from "./assets/logo-html5.png";
-import iconCSS from "./assets/logo-css3.png";
-import iconJavascript from "./assets/logo-javascript.png";
-import iconTypescript from "./assets/typescript.svg";
-import iconSass from "./assets/logo-sass.svg";
-import iconReact from "./assets/logo-react.svg";
-import iconGitHub from "./assets/github-mark-white.svg";
-import iconLinkedin from "./assets/logo-linkedin.png";
+import iconHTML from "../../assets/logo-html5.png";
+import iconCSS from "../../assets/logo-css3.png";
+import iconJavascript from "../../assets/logo-javascript.png";
+import iconTypescript from "../../assets/typescript.svg";
+import iconSass from "../../assets/logo-sass.svg";
+import iconReact from "../../assets/logo-react.svg";
+import iconGitHub from "../../assets/github-mark-white.svg";
+import iconLinkedin from "../../assets/logo-linkedin.png";
 
-import TechIcon from "./TechIcon";
+import TechIcon from "../../components/tech-icon/TechIcon";
 
 export default function Hero({ children }: { children: JSX.Element }) {
   return (
