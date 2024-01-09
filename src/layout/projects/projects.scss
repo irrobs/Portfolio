@@ -1,5 +1,4 @@
 @use "../../sass/utils/variables.scss" as *;
-@use "../../sass/utils/mixins.scss" as *;
 
 .projects {
   grid-row: projects-start / projects-end;
@@ -10,97 +9,5 @@
   align-items: center;
   justify-content: center;
   background-color: $background-color;
-  padding: 25rem 5rem 15rem;
-}
-
-.project {
-  background-color: $background-color--light;
-  border-radius: 20px;
-  max-width: 120rem;
-  min-height: 40rem;
-  padding: 3rem;
-  display: flex;
-  color: $gray-text;
-  justify-content: space-around;
-  gap: 5rem;
-
-  font-size: 1.6rem;
-  box-shadow: 0 5px 15px 3px black;
-
-  @include respond($tablet-land) {
-    display: grid;
-    grid-template-rows: repeat(2, min-content);
-    max-width: 70rem;
-  }
-
-  &__image {
-    max-width: 60%;
-    background-color: #fff;
-    border-radius: 20px;
-    grid-row: 1 / -1;
-    border: 2px solid $primary-color;
-    @include respond($desktop-small) {
-      max-width: 50%;
-    }
-
-    @include respond($tablet-land) {
-      max-width: 100%;
-    }
-  }
-
-  &__content {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-
-    @include respond($tablet-land) {
-      gap: 4rem;
-    }
-  }
-
-  &__heading {
-    color: $primary-color;
-  }
-
-  &__date {
-    color: $primary-color;
-  }
-
-  &__description {
-    margin-bottom: auto;
-
-    @include respond($desktop-small) {
-      font-size: 1.4rem;
-    }
-
-    @include respond($tablet-land) {
-      font-size: 1.8rem;
-    }
-  }
-
-  &__links {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-
-    & a {
-      text-decoration: none;
-      font-size: 2rem;
-      text-transform: uppercase;
-      color: $gray-text--dark;
-      font-weight: 700;
-      transition: all 0.3s;
-
-      &:hover {
-        color: $primary-color;
-      }
-    }
-  }
-}
-
-.tags {
-  list-style: none;
-  display: flex;
-  gap: 3rem;
-  justify-content: center;
+  padding: $section-padding;
 }

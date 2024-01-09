@@ -5,10 +5,9 @@
 .hero {
   grid-row: hero-start / hero-end;
 
-  display: grid;
+  @include gridCenter;
   grid-template-columns: 1fr 10vw;
-  align-items: center;
-  justify-items: center;
+
   position: relative;
   background-color: $background-color;
 

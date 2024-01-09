@@ -13,7 +13,7 @@
     text-decoration: none;
     font-size: 2rem;
     color: $gray-text--dark;
-    transition: all 0.3s;
+    transition: $transition;
 
     &:hover {
       color: $gray-text;
@@ -26,7 +26,7 @@
     text-transform: uppercase;
     font-weight: 600;
     color: $gray-text;
-    transition: all 0.3s;
+    transition: $transition;
 
     &:hover {
       color: $primary-color;
@@ -45,7 +45,7 @@
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
     cursor: pointer;
-    transition: all 0.3s;
+    transition: $transition;
 
     &:hover {
       height: 5rem;

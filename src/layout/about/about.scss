@@ -4,21 +4,20 @@
 .about {
   grid-row: about-start / about-end;
   position: relative;
-  padding: 25rem 5rem 15rem;
+  padding: $section-padding;
   display: flex;
   justify-content: center;
 
   &__content {
     max-width: 150rem;
     padding: 5rem;
-    display: grid;
+    @include gridCenter;
     grid-template-columns: min-content 1fr;
     grid-template-rows: repeat(2, min-content);
-    justify-items: center;
-    align-items: center;
+
     column-gap: 10rem;
     box-shadow: 0 5px 10px 3px black;
-    border-radius: 20px;
+    border-radius: $border-radius;
     background-color: $background-color;
 
     @include respond($desktop-small) {
@@ -45,7 +44,7 @@
     &-photo {
       width: 40rem;
       height: 40rem;
-      border-radius: 20px;
+      border-radius: $border-radius;
       grid-row: 1 / -1;
       border: 3px solid $primary-color;
       align-self: start;
