@@ -6,8 +6,9 @@ import iconSass from "../../assets/logo-sass.svg";
 import iconReact from "../../assets/logo-react.svg";
 import iconGitHub from "../../assets/github-mark-white.svg";
 import iconLinkedin from "../../assets/logo-linkedin.png";
-
+import iconResume from "../../assets/resume.svg";
 import TechIcon from "../../components/tech-icon/TechIcon";
+import resume from "../../assets/Currículo-.pdf";
 
 export default function Hero({ children }: { children: JSX.Element }) {
   return (
@@ -35,6 +36,9 @@ export default function Hero({ children }: { children: JSX.Element }) {
         </a>
         <a href="https://www.linkedin.com/in/matheus-escobar/" target="_blank">
           <TechIcon icon={iconLinkedin} name="Linkedin" />
+        </a>
+        <a href={resume} target="_blank">
+          <TechIcon icon={iconResume} name="Currículo" />
         </a>
       </ul>
     </section>
