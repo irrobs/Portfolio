@@ -4,7 +4,7 @@ import iconJavascript from "../../assets/logo-javascript.png";
 import iconTypescript from "../../assets/typescript.svg";
 import iconSass from "../../assets/logo-sass.svg";
 import iconReact from "../../assets/logo-react.svg";
-import iconTailwind from "../../assets/logo-tailwind.png";
+import iconTailwind from "../../assets/logo-tailwind.svg";
 import iconGitHub from "../../assets/github-mark-white.svg";
 import iconLinkedin from "../../assets/logo-linkedin.png";
 import iconResume from "../../assets/resume.svg";

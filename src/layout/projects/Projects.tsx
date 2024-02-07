@@ -3,7 +3,7 @@ import iconJavascript from "../../assets/logo-javascript.png";
 import iconSass from "../../assets/logo-sass.svg";
 import iconTypescript from "../../assets/typescript.svg";
 import iconReact from "../../assets/logo-react.svg";
-import iconTailwind from "../../assets/logo-tailwind.png";
+import iconTailwind from "../../assets/logo-tailwind.svg";
 
 import myMovieList from "../../assets/MyMovieList.jpg";
 import rocketNFTs from "../../assets/Rocket-NFTs.jpg";
