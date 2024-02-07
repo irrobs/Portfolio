@@ -4,6 +4,7 @@ import iconJavascript from "../../assets/logo-javascript.png";
 import iconTypescript from "../../assets/typescript.svg";
 import iconSass from "../../assets/logo-sass.svg";
 import iconReact from "../../assets/logo-react.svg";
+import iconTailwind from "../../assets/logo-tailwind.png";
 import iconGitHub from "../../assets/github-mark-white.svg";
 import iconLinkedin from "../../assets/logo-linkedin.png";
 import iconResume from "../../assets/resume.svg";
@@ -24,6 +25,7 @@ export default function Hero({ children }: { children: JSX.Element }) {
           <TechIcon icon={iconTypescript} name="Typescript" />
           <TechIcon icon={iconSass} name="Sass" />
           <TechIcon icon={iconReact} name="React" />
+          <TechIcon icon={iconTailwind} name="Tailwind" />
         </ul>
         <h1 className="hero__heading heading__primary">
           Desenvolvedor <span>front</span>-end
