@@ -18,7 +18,7 @@ const projectsList = [
   {
     imagePath: fcommerce,
     title: "Fcommerce",
-    date: "em desenvolvimento",
+    date: "Fevereiro de 2024",
     description:
       "Ecommerce criado usando a API fakestore, sendo possível navegar pelas categorias de produtos, adicionar a carrinho,a lista de desejos e ver detalhes de produtos.",
     website: "https://myfcommerce.netlify.app/",
