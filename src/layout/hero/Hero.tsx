@@ -9,7 +9,7 @@ import iconGitHub from "../../assets/github-mark-white.svg";
 import iconLinkedin from "../../assets/logo-linkedin.png";
 import iconResume from "../../assets/resume.svg";
 import TechIcon from "../../components/tech-icon/TechIcon";
-import resume from "../../assets/Currículo-.pdf";
+import resume from "../../assets/Currículo Matheus Escobar.pdf";
 
 export default function Hero({ children }: { children: JSX.Element }) {
   return (
