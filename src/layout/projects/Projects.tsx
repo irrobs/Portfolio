@@ -4,10 +4,13 @@ import iconSass from "../../assets/logo-sass.svg";
 import iconTypescript from "../../assets/typescript.svg";
 import iconReact from "../../assets/logo-react.svg";
 import iconTailwind from "../../assets/logo-tailwind.svg";
+import iconStyled from "../../assets/styled-components.svg";
+import iconJest from "../../assets/jest.svg";
 
 import myMovieList from "../../assets/MyMovieList.jpg";
 import rocketNFTs from "../../assets/Rocket-NFTs.jpg";
 import fcommerce from "../../assets/fcommerce.jpg";
+import roots from "../../assets/roots.png";
 
 import Project from "../../components/project/Project";
 import ProjectContent from "../../components/project/project-content/Project-content";
@@ -15,6 +18,21 @@ import ProjectImage from "../../components/project/project-image/Project-image";
 import Tags from "../../components/tags/Tags";
 
 const projectsList = [
+  {
+    imagePath: roots,
+    title: "Roots",
+    date: "Junho de 2024(em desenvolvimento)",
+    description:
+      "É uma rede social que está sendo desenvolvido usando React e TypeScript, além de React Query para lidar com o state do servidor, Redux para o state global, React Router para o roteamento, React Hook Forms para os formulários, Styled Components para a estilização, e Jest/Vitest para os teste. Até o momento apenas as functionalidades de criação de conta, de login, redefinição de senha, logout e a edição do próprio perfil estão implementadas, mas logo todas as outras estarão também.",
+    website: "https://rootss.vercel.app",
+    technologiesUsed: [
+      { icon: iconReact, technologieName: "React" },
+      { icon: iconTypescript, technologieName: "Typescript" },
+      { icon: iconStyled, technologieName: "Styled Components" },
+      { icon: iconJest, technologieName: "Jest" },
+    ],
+    repositorie: "Roots",
+  },
   {
     imagePath: fcommerce,
     title: "Fcommerce",

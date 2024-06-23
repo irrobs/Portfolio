@@ -5,9 +5,11 @@ import iconTypescript from "../../assets/typescript.svg";
 import iconSass from "../../assets/logo-sass.svg";
 import iconReact from "../../assets/logo-react.svg";
 import iconTailwind from "../../assets/logo-tailwind.svg";
+import iconStyledComponents from "../../assets/styled-components.svg";
 import iconGitHub from "../../assets/github-mark-white.svg";
 import iconLinkedin from "../../assets/logo-linkedin.png";
 import iconResume from "../../assets/resume.svg";
+import iconJest from "../../assets/jest.svg";
 import TechIcon from "../../components/tech-icon/TechIcon";
 import resume from "../../assets/Currículo Matheus Escobar.pdf";
 
@@ -26,6 +28,8 @@ export default function Hero({ children }: { children: JSX.Element }) {
           <TechIcon icon={iconSass} name="Sass" />
           <TechIcon icon={iconReact} name="React" />
           <TechIcon icon={iconTailwind} name="Tailwind" />
+          <TechIcon icon={iconStyledComponents} name="Styled Components" />
+          <TechIcon icon={iconJest} name="Jest" />
         </ul>
         <h1 className="hero__heading heading__primary">
           Desenvolvedor <span>front</span>-end

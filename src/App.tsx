@@ -8,7 +8,7 @@ export default function App() {
   return (
     <div className="app">
       <Hero>
-        <Navigation></Navigation>
+        <Navigation />
       </Hero>
       <About />
       <Projects />
