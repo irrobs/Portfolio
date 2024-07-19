@@ -21,9 +21,9 @@ const projectsList = [
   {
     imagePath: roots,
     title: "Roots",
-    date: "Junho de 2024(em desenvolvimento)",
+    date: "Junho de 2024",
     description:
-      "É uma rede social que está sendo desenvolvido usando React e TypeScript, além de React Query para lidar com o state do servidor, Redux para o state global, React Router para o roteamento, React Hook Forms para os formulários, Styled Components para a estilização, e Jest/Vitest para os teste. Até o momento apenas as functionalidades de criação de conta, de login, redefinição de senha, logout e a edição do próprio perfil estão implementadas, mas logo todas as outras estarão também.",
+      "É uma rede social que é possível fazer postagens, seguir usuários, interagir com as postagens e até conversar em chats. Desenvolvida usando React e TypeScript, além de React Query para lidar com o state do servidor, Redux para o state global, React Router para o roteamento, React Hook Forms para os formulários, Styled Components para a estilização, e Jest/Vitest para os testes.",
     website: "https://rootss.vercel.app",
     technologiesUsed: [
       { icon: iconReact, technologieName: "React" },
