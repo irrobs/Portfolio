@@ -32,7 +32,7 @@ export default function Hero({ children }: { children: JSX.Element }) {
           <TechIcon icon={iconJest} name="Jest" />
         </ul>
         <h1 className="hero__heading heading__primary">
-          Desenvolvedor <span>front</span>-end
+          Desenvolvedor <span>fullstack </span>
         </h1>
       </div>
       {children}
